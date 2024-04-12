@@ -13,17 +13,19 @@
 <body>
   <div class="container">
     <form action="stampo-qui.php" methods="GET">
-    <div class="mb-3">
-      <label class="form-label">Paragrafo</label>
-      <input name="nome"  class="form-control">
-    </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Parola da censurare</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+      <div class="mb-3">
+        <label class="form-label">Paragrafo</label>
+        <input name="nome"  class="form-control">
+      </div>
+      
+      <div class="mb-3">
+        <label class="form-label">Parola da censurare</label>
+        <input name="replace" class="form-control" >
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </div>
+  
   
 </body>
 

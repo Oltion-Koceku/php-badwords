@@ -1,7 +1,9 @@
 <?php
 
-  $name = "nome";
-
+  $name = $_GET["nome"];
+  $replace = $_GET['replace'];
+  $nome_senza_replace = str_replace($replace, 'Censura', $name);
+  echo var_dump( $replace );
 ?>
 
 <!DOCTYPE html>
@@ -12,6 +14,7 @@
   <title>Document</title>
 </head>
 <body>
-  <h1><?php   echo $_GET[$name] ?></h1>
+  <h1><?php   echo $name ?></h1>
+  <h1><?php   echo $nome_senza_replace ?></h1>
 </body>
 </html>
