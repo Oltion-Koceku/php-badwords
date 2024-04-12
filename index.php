@@ -13,6 +13,7 @@
 <body>
   <div class="container">
     <form action="stampo-qui.php" methods="GET">
+
       <div class="mb-3">
         <label class="form-label">Paragrafo</label>
         <input name="nome"  class="form-control">
@@ -22,6 +23,7 @@
         <label class="form-label">Parola da censurare</label>
         <input name="replace" class="form-control" >
       </div>
+      
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
